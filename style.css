@@ -6,6 +6,7 @@ html, body {
   color: #FFDEDE;
   font-size: 175%;
   background-color: #FF6C6C
+  font-family: "Times New Roman", Georgia, Serif;
 }
 
 .section {
@@ -53,14 +54,17 @@ html, body {
   right: 0%;
 }
 
+#pusheen img {
+  width: 100%;
+  height: auto;
+}
+
 #linkedin {
-  display: block;
-  text-decoration: none;
   line-height: 100%;
 }
 
 @media screen and (max-width: 1000px) {
-  #pic{
+  #pic {
     display: block;
     width: 70%;
     margin: 20px auto;
@@ -74,7 +78,16 @@ html, body {
     line-height: 130%;
   }
 
+  #pusheen {
+    width: 40%;
+  }
+
   .section-2 {
+    padding-bottom: 50px;
     height: auto;
+  }
+
+  .section-3 {
+    font-size: 70%;
   }
 }
