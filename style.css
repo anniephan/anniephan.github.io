@@ -64,7 +64,7 @@ html, body {
   line-height: 100%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
   #pic {
     display: block;
     width: 70%;
