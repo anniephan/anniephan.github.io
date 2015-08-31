@@ -17,4 +17,6 @@ html, body {
 
 #bigindent {
 	margin-left:5em;
+	margin-top: -17px;
+	margin-bottom: 20px;
 }
