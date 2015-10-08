@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<head>
+    <title>Annie Phan's Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="blogstyle.css">
+</head>
+
+
+<div id="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1>{{ post.title }}</h1>
+
+      <div class="entry">
+        {{ post.content }}
+      </div>
+
+      <hr>
+        <p>Written on {{ post.date }}</p>
+    </article>
+  {% endfor %}
+</div>
